@@ -1,6 +1,25 @@
-.portfolio_name {
+.portfolio_name a {
+  position: relative;
+    display: table;
+    margin: auto;
     text-align: center;
-    color: #888;
+    color: #987750;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
   }
+  .portfolio_name a::after {
+    content: "";
+    height: 1px;
+    width: 0%;
+    position: absolute;
+    background-color: currentColor;
+    right: 0;
+    bottom: 0;
+    transition: all .5s;
+  }
+  .portfolio_name a:hover::after {
+    width: 100%;
+    transition: all .5s;
+    left: 0;
+  }
+  

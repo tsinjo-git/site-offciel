@@ -11,10 +11,10 @@ import ostheopathe from "../images/ostheopathe.png";
 class Portfolio extends Component {
     state = {
         realisations : [
+            {nom : "Location monte" , lien : "https://location-monte.gazolinecommunication.com/" , src:location_monte},
+            {nom : "Cabinet Osthopathe" , lien : "#" , src:ostheopathe},
             {nom : "AV Junior" , lien : "#" , src:av_junior},  
-            {nom : "La varangue" , lien : "#" , src:lavarangue},
-            {nom : "Location monte" , lien : "#" , src:location_monte},
-            {nom : "Osthopathe" , lien : "#" , src:ostheopathe},
+            {nom : "La varangue" , lien : "#" , src:lavarangue},   
             {nom : "Dashboard aHome Cloud" , lien : "#" , src:dashboard_ahome},
           ]
         }
@@ -26,17 +26,12 @@ class Portfolio extends Component {
             slidesToScroll: 1,
             vertical: true,
             verticalSwiping: true,
-            beforeChange: function(currentSlide, nextSlide) {
-              console.log("before change", currentSlide, nextSlide);
-            },
-            afterChange: function(currentSlide) {
-              console.log("after change", currentSlide);
-            }
+            beforeChange: function(currentSlide, nextSlide) {},
+            afterChange: function(currentSlide) {}
           };
         return (  
-            <div id="portfolio_realisations">       
-                <Slider {...settings}>
-                    
+            <div id="item_realisation">       
+                <Slider {...settings}>   
                         {
                             this.state.realisations.map((item_realisation , key) => {
                                 return (
@@ -45,7 +40,7 @@ class Portfolio extends Component {
                                             <img src={item_realisation.src}  alt={item_realisation.nom} title={item_realisation.nom} />
                                         </div>
                                         <div className="portfolio_name">
-                                            {item_realisation.nom}
+                                            <a href={item_realisation.lien} target="_blank">Voir {item_realisation.nom}</a>
                                         </div>
                                     </>
                                 )

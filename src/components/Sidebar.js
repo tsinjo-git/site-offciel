@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-
+import myimage from "../images/tsinjo.png";
 class Sidebar extends Component {
     render () {
         return (
-            <div>Sidebar</div>
+            <div className="profil_images">
+                <img src={myimage} alt="Image" />
+            </div>
         )
     }
 }

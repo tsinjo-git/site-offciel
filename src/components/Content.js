@@ -1,6 +1,7 @@
 import React, { Component , Fragment } from "react";
 import content from "../css/content.css";
 import Portfolio from "./Portfolio";
+import Services from "./Services";
 class Content extends Component {
     render () {
         return (
@@ -9,13 +10,13 @@ class Content extends Component {
                     introduction
                 </div>
                 <div className="title_subject">
-                    Developpeur front-end
+                    Développeur front-end
                 </div>
                 <div className="ct_b">
                     <div className="text_hero">
                         <p>
-                        Créateur d'un site internet , passioné par les technologies et les nouvelles tendances d'un site. 
-                        Je suis à la disposition pour une mission de developpement interface (Front) de votre site web en cas de besoin.
+                        Créateur d'un site internet , passionné par les techniques et les nouvelles tendances d'un site.
+                         Je suis à la disposition pour une mission de développement interface (Front) de votre site web en cas de besoin.
                         </p>
                     </div>
                     <div className="signature">Tsinjo Elie RAJOTIANA</div>
@@ -29,8 +30,8 @@ class Content extends Component {
                     <div className="about_me ct_b">
                     <div className="text_hero">
                         <p>
-                            Avec quelques sites réalisés et des experiences sur le developpement d'interface d'un site web , 
-                            je suis a votre disposition pour construire votre site.
+                        Avec quelques sites réalisés et des expériences sur le développement d'interface d'un site web , 
+                        je suis à votre disposition pour construire votre site.
                         </p>
                     </div>
                     <table>
@@ -45,10 +46,10 @@ class Content extends Component {
                     </table>
                     </div>
                     <div className="title_intro">
-                        Experiences
+                        Expériences
                     </div>
                     <div className="title_subject">
-                        Mes experiences
+                        Mes expériences
                     </div>
                     <div className="section_experience ct_b">
                     <div class="single_experience_">
@@ -93,6 +94,7 @@ class Content extends Component {
                                 <li>Découpage maquette PSD et XD sur Wordpress</li>
                                 <li>Création de site e-commerce</li>
                                 <li>Création de site vitrine</li>
+                                <li>Création de sur mesure</li>
                             </ul>
                         </div>
                       </div>
@@ -105,11 +107,23 @@ class Content extends Component {
                     </div>
                     <div className="text_hero">
                         <p>
-                        Je vous montre ici mes dernières réalisations , et si vous êtes interessé , n'hésitez pas de me contacter.
+                        Mes dernières réalisations, n'hésitez pas à voir le site et me contactez si vous êtes intéressé.
                         </p>
                     </div>
-                    <div>
+                    <div className="ct_b">
                         <Portfolio />
+                    </div>
+                    <div className="title_intro">
+                        services
+                    </div>
+                    <div className="title_subject">
+                        Mes services
+                    </div>
+                    <div className="text_hero">
+                        <p>
+                        En tant que développeur front end , Je m'occupe la partie interface d'un site web , que ce soit avec HTML CSS BOOTSTRAP et JAVASCRIPT ou WORDPRESS ,
+                        n'hésite pas de à contacter si vous avez besoin d'un site web.
+                        </p>
                     </div>
             </>
         )
