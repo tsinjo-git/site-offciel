@@ -1,5 +1,6 @@
 import React, { Component , Fragment } from "react";
 import content from "../css/content.css";
+import Portfolio from "./Portfolio";
 class Content extends Component {
     render () {
         return (
@@ -14,7 +15,7 @@ class Content extends Component {
                     <div className="text_hero">
                         <p>
                         Créateur d'un site internet , passioné par les technologies et les nouvelles tendances d'un site. 
-                        Je suis à la disposition pour une mission de developpement interface (Front) de votre site web en cas de bsoin.
+                        Je suis à la disposition pour une mission de developpement interface (Front) de votre site web en cas de besoin.
                         </p>
                     </div>
                     <div className="signature">Tsinjo Elie RAJOTIANA</div>
@@ -36,7 +37,7 @@ class Content extends Component {
                         <tbody>
                             <tr><th>Nom</th><th>RAJOTIANA Tsinjo Elie</th></tr>
                             <tr><th>Date de naissance</th><th>1 Septembre 1996</th></tr>
-                            <tr><th>Localisation</th><th>Madagascar</th></tr>
+                            <tr><th>Localisation</th><th><a href="https://www.google.com/maps/place/Talatamaty/@-18.8392498,47.4626233,193m/data=!3m1!1e3!4m5!3m4!1s0x21f081da746f8f1d:0xafe7d2a007a3066e!8m2!3d-18.8402631!4d47.4539427" target="_blank">Madagascar</a></th></tr>
                             <tr><th>Téléphone</th><th><a href="tel:++261346999410">(+261) 34 69 994 10</a></th></tr>
                             <tr><th>Facebook</th><th><a href="https://www.facebook.com/tsinjoelie/" target="_blank">Tsinjo Elie</a></th></tr>
                             <tr><th>Email</th><th><a href="mailto:elie.Tsinjo@gmail.com">elie.Tsinjo@gmail.com</a></th></tr>
@@ -95,6 +96,20 @@ class Content extends Component {
                             </ul>
                         </div>
                       </div>
+                    </div>
+                    <div className="title_intro">
+                        Portfolio
+                    </div>
+                    <div className="title_subject">
+                        Mes dernières réalisations
+                    </div>
+                    <div className="text_hero">
+                        <p>
+                        Je vous montre ici mes dernières réalisations , et si vous êtes interessé , n'hésitez pas de me contacter.
+                        </p>
+                    </div>
+                    <div>
+                        <Portfolio />
                     </div>
             </>
         )
