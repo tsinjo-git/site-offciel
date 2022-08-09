@@ -1,0 +1,95 @@
+.title_intro {
+    color: #987750;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .title_subject {
+    color: #fff;
+    font-size: 48px;
+    position: relative;
+    margin: 25px 0;
+    line-height: 115px;
+  }
+  .title_subject::after {
+    content: "";
+    background-color: rgba(255,255,255,.2);
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .text_hero {
+    padding: 0;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0;
+    color: #888;
+  }
+  .signature {
+    color: #888;
+    font-family: dancing;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .ct_b {
+    margin-bottom: 75px;
+  }
+  .about_me table th:first-child {
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    width: 70%;
+    line-height: 45px;
+  }
+  .about_me th {
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #888;
+    font-weight: 500;
+    text-align: left;
+  }
+  .about_me a {
+    color: #888;
+  }
+  .single_experience_ span {
+    display: block;
+  }
+  .date_experience {
+    color: #987750;
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .societe_experience {
+    color: #888;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .task_list > div {
+    color: #888;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .task_list ul li {
+    list-style: none;
+    color: #888;
+    line-height: 40px;
+    position: relative;
+    padding-left: 25px;
+  }
+  .task_list ul li::before {
+    content: "";
+    background-color: #888;
+    height: 1px;
+    width: 15px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }

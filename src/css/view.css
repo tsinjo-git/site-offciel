@@ -1,0 +1,15 @@
+.grid-template {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 25px;
+    place-content: center;
+  }
+  .inner_root {
+    padding-top: 90px;
+  }
+  .content_fixed_root {
+    position: fixed;
+    width: 40%;
+    right: 0;
+    overflow: hidden;
+  }

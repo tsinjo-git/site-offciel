@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1b19;
+    font-family: jost;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+ul , ol {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+div , section {
+    display: block;
+}
+@font-face {
+    font-family: jost;
+    src: url("../fonts/Jost-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: dancing;
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  @media (min-width: 1200px) {
+  .container {
+      max-width: 1200px;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  .info-right span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  .info-right {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+  }
+  .info_text_ {
+    color: #fff;
+  }
+  #fixed_top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }

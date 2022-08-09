@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Homepage from "./Homepage";
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const wrapper = ReactDOM.createRoot(document.getElementById('wrapper'));
+wrapper.render(
   <React.StrictMode>
-    <App />
+    <Homepage />
   </React.StrictMode>
 );
 
