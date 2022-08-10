@@ -23,6 +23,10 @@ a {
 div , section {
     display: block;
 }
+::selection {
+  background-color: #987750;
+  color: #101010;
+}
 @font-face {
     font-family: jost;
     src: url("../fonts/Jost-VariableFont_wght.ttf");
