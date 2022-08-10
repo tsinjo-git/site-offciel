@@ -4,7 +4,7 @@ class Sidebar extends Component {
     render () {
         return (
             <div className="profil_images">
-                <img src={myimage} alt="Image" />
+                <img src={myimage} alt="Image" title="Tsinjo Elie"/>
             </div>
         )
     }

@@ -20,7 +20,7 @@
     content: "";
     border: 1px solid #888;
     height: 99%;
-    width: 50%;
+    width: 47%;
     position: absolute;
     display: block;
     left: 50%;
@@ -30,7 +30,7 @@
     content: "";
     border: 1px solid #888;
     position: absolute;
-    height: 80%;
+    height: 82%;
     width: 65%;
     display: block;
     left: 50%;
@@ -38,7 +38,8 @@
     transform: translateX(-50%) translateY(-50%);
   }
   .profil_images img {
-    height: 400px;
-    object-fit: contain;
-    padding: 30px;
+    height: 430px;
+    padding: 40px;
+    display: block;
+    margin: auto;
   }

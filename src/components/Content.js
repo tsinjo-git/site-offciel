@@ -15,8 +15,8 @@ class Content extends Component {
                 <div className="ct_b">
                     <div className="text_hero">
                         <p>
-                        Créateur d'un site internet , passionné par les techniques et les nouvelles tendances d'un site.
-                         Je suis à la disposition pour une mission de développement interface (Front) de votre site web en cas de besoin.
+                        Créateur d'un site internet , passionné par les nouvelles technologie et les tendances d'un site.
+                         Je suis à la disposition pour une mission de développement interface (Front) de votre site web.
                         </p>
                     </div>
                     <div className="signature">Tsinjo Elie RAJOTIANA</div>
@@ -61,6 +61,7 @@ class Content extends Component {
                                 <li>Création site web a partir de HTML CSS BOOTSTRAP JAVASCRIPT JQUERY</li>
                                 <li>Création site web sur wordpress et thème premium [Divi , Elementor]</li>
                                 <li>Création design d'une application web</li>
+                                <li>Responsive design</li>
                             </ul>
                         </div>
                       </div>
@@ -78,6 +79,8 @@ class Content extends Component {
                                 <li>Correction bug d'un site web existant</li>
                                 <li>Refonte site web</li>
                                 <li>Découpage maquette PSD en squelette HTML CSS et JAVASCRIPT</li>
+                                <li>Transformation du site WORDPRESS en HTML et CSS</li>
+                                <li>Responsive design</li>
                             </ul>
                         </div>
                       </div>
@@ -92,9 +95,10 @@ class Content extends Component {
                                 <li>Travail en collaboration avec des chefs de projets</li>
                                 <li>Integration contenus web sous Wordpress et thème premium [Divi , Elementor , Bakery]</li>
                                 <li>Découpage maquette PSD et XD sur Wordpress</li>
-                                <li>Création de site e-commerce</li>
-                                <li>Création de site vitrine</li>
-                                <li>Création de sur mesure</li>
+                                <li>Création site e-commerce</li>
+                                <li>Création site vitrine</li>
+                                <li>Création site sur mesure</li>
+                                <li>Responsive design</li>
                             </ul>
                         </div>
                       </div>
@@ -107,7 +111,7 @@ class Content extends Component {
                     </div>
                     <div className="text_hero">
                         <p>
-                        Mes dernières réalisations, n'hésitez pas à voir le site et me contactez si vous êtes intéressé.
+                        Toutes mes dernières réalisations, n'hésitez pas à voir le site et me contactez si vous êtes intéressé.
                         </p>
                     </div>
                     <div className="ct_b">
@@ -122,8 +126,11 @@ class Content extends Component {
                     <div className="text_hero">
                         <p>
                         En tant que développeur front end , Je m'occupe la partie interface d'un site web , que ce soit avec HTML CSS BOOTSTRAP et JAVASCRIPT ou WORDPRESS ,
-                        n'hésite pas de à contacter si vous avez besoin d'un site web.
+                        en utilisant des outils de developpement , contactez-moi pour creer votre site web.
                         </p>
+                    </div>
+                    <div>
+                        <Services />
                     </div>
             </>
         )
