@@ -24,8 +24,13 @@
   }
   .box_item_services_list:hover {
     transition: all .25s;
-    background-color: rgba(255,255,255,.1);
+    background-color: #987750;
   }
   .item_service_nom {
     color: #987750;
+  }
+  
+  .box_item_services_list:hover > .item_service_nom , .item_service_nom:hover {
+    color: #101010;
+    transition: all .25s;
   }
