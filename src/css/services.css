@@ -30,7 +30,7 @@
     color: #987750;
   }
   
-  .box_item_services_list:hover > .item_service_nom , .item_service_nom:hover {
+  .box_item_services_list:hover > .item_service_nom {
     color: #101010;
     transition: all .25s;
   }

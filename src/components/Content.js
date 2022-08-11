@@ -3,6 +3,9 @@ import content from "../css/content.css";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 class Content extends Component {
+    state = {
+        task : "Tâche a faire"
+    }
     render () {
         return (
             <>
@@ -41,7 +44,7 @@ class Content extends Component {
                             <tr><th>Localisation</th><th><a href="https://www.google.com/maps/place/Talatamaty/@-18.8392498,47.4626233,193m/data=!3m1!1e3!4m5!3m4!1s0x21f081da746f8f1d:0xafe7d2a007a3066e!8m2!3d-18.8402631!4d47.4539427" target="_blank">Madagascar</a></th></tr>
                             <tr><th>Téléphone</th><th><a href="tel:++261346999410">(+261) 34 69 994 10</a></th></tr>
                             <tr><th>Facebook</th><th><a href="https://www.facebook.com/tsinjoelie/" target="_blank">Tsinjo Elie</a></th></tr>
-                            <tr><th>Email</th><th><a href="mailto:elie.Tsinjo@gmail.com">elie.Tsinjo@gmail.com</a></th></tr>
+                            <tr><th>Email</th><th><a href="mailto:elie.tsinjo@gmail.com">elie.tsinjo@gmail.com</a></th></tr>
                         </tbody>
                     </table>
                     </div>
@@ -56,7 +59,7 @@ class Content extends Component {
                         <span className="date_experience">Actuellement</span>
                         <span className="societe_experience">Integrateur Web chez Neoticon</span>
                         <div class="task_list">
-                            <div>Tâche a faire : </div>
+                            <div>{this.state.task} : </div>
                             <ul>
                                 <li>Création site web a partir de HTML CSS BOOTSTRAP JAVASCRIPT JQUERY</li>
                                 <li>Création site web sur wordpress et thème premium [Divi , Elementor]</li>
@@ -71,7 +74,7 @@ class Content extends Component {
                         <span className="date_experience">2020 - 2022</span>
                         <span className="societe_experience">Integrateur web chez Creativedev Madagascar</span>
                         <div class="task_list">
-                            <div>Tâche a faire : </div>
+                            <div>{this.state.task} : </div>
                             <ul>
                                 <li>Création site web a partir de HTML CSS BOOTSTRAP JAVASCRIPT JQUERY</li>
                                 <li>Dynamisation des contenus dans le Back-office client et moteur de template Smarty</li>
@@ -90,7 +93,7 @@ class Content extends Component {
                         <span className="date_experience">2019 - 2020</span>
                         <span className="societe_experience">Integrateur Web chez Iloo Tech Madagascar</span>
                         <div class="task_list">
-                            <div>Tâche a faire : </div>
+                            <div>{this.state.task} : </div>
                             <ul>
                                 <li>Travail en collaboration avec des chefs de projets</li>
                                 <li>Integration contenus web sous Wordpress et thème premium [Divi , Elementor , Bakery]</li>
@@ -125,8 +128,7 @@ class Content extends Component {
                     </div>
                     <div className="text_hero">
                         <p>
-                        En tant que développeur front end , Je m'occupe la partie interface d'un site web , que ce soit avec HTML CSS BOOTSTRAP et JAVASCRIPT ou WORDPRESS ,
-                        en utilisant des outils de developpement , contactez-moi pour creer votre site web.
+                        En tant que développeur front end , Je m'occupe la partie interface d'un site web , que ce soit avec HTML CSS BOOTSTRAP et JAVASCRIPT ou WORDPRESS.
                         </p>
                     </div>
                     <div>
