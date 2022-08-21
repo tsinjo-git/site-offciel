@@ -7,7 +7,6 @@ class View extends Component {
     render () {
         return (
             <>
-                <Information />
                 <section>
                     <div className="inner_root">
                         <div className="container">

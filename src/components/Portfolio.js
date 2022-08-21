@@ -11,10 +11,10 @@ import ostheopathe from "../images/ostheopathe.png";
 class Portfolio extends Component {
     state = {
         realisations : [
-            {nom : "Location monte" , lien : "https://location-monte.gazolinecommunication.com/" , src:location_monte},
+            {nom : "Location monte" , lien : "https://location-monte.gazolinecommunication.com" , src:location_monte},
             {nom : "Cabinet Osthopathe" , lien : "#" , src:ostheopathe},
             {nom : "AV Junior" , lien : "#" , src:av_junior},  
-            {nom : "La varangue" , lien : "#" , src:lavarangue},   
+            {nom : "La varangue" , lien : "https://hotel-restaurant-lavarangue.com" , src:lavarangue},   
             {nom : "Dashboard aHome Cloud" , lien : "#" , src:dashboard_ahome},
           ]
         }

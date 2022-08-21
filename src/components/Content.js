@@ -40,7 +40,7 @@ class Content extends Component {
                     <table>
                         <tbody>
                             <tr><th>Nom</th><th>RAJOTIANA Tsinjo Elie</th></tr>
-                            <tr><th>Date de naissance</th><th>1 Septembre 1996</th></tr>
+                            <tr><th>Rôle</th><th>Developpeur Front end</th></tr>
                             <tr><th>Localisation</th><th><a href="https://www.google.com/maps/place/Talatamaty/@-18.8392498,47.4626233,193m/data=!3m1!1e3!4m5!3m4!1s0x21f081da746f8f1d:0xafe7d2a007a3066e!8m2!3d-18.8402631!4d47.4539427" target="_blank">Madagascar</a></th></tr>
                             <tr><th>Téléphone</th><th><a href="tel:++261346999410">(+261) 34 69 994 10</a></th></tr>
                             <tr><th>Facebook</th><th><a href="https://www.facebook.com/tsinjoelie/" target="_blank">Tsinjo Elie</a></th></tr>
@@ -128,8 +128,9 @@ class Content extends Component {
                     </div>
                     <div className="text_hero">
                         <p>
-                        En tant que développeur front end , Je m'occupe la partie interface d'un site web , que ce soit avec HTML CSS BOOTSTRAP et JAVASCRIPT ou WORDPRESS.
-                        </p>
+                        En tant que développeur front end , Je m'occupe la partie interface d'un site web.</p>
+                        <p> Voici mes outils de developpement : </p>
+                        
                     </div>
                     <div>
                         <Services />
