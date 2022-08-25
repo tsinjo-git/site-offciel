@@ -8,14 +8,16 @@ import dashboard_ahome from "../images/dashboard_ahome.png";
 import lavarangue from "../images/lavarangue.png";
 import location_monte from "../images/location_monte.png";
 import ostheopathe from "../images/ostheopathe.png";
+import diabe from "../images/diabe.png";
 class Portfolio extends Component {
     state = {
         realisations : [
             {nom : "Location monte" , lien : "https://location-monte.gazolinecommunication.com" , src:location_monte},
-            {nom : "Cabinet Osthopathe" , lien : "#" , src:ostheopathe},
-            {nom : "AV Junior" , lien : "#" , src:av_junior},  
+            {nom : "Cabinet Osthopathe" , lien : "https://ostheopathes.neoticon.com/" , src:ostheopathe},
+            {nom : "AV Junior" , lien : "https://av-junior.neoticon.com/" , src:av_junior},  
             {nom : "La varangue" , lien : "https://hotel-restaurant-lavarangue.com" , src:lavarangue},   
             {nom : "Dashboard aHome Cloud" , lien : "#" , src:dashboard_ahome},
+            {nom : "Tetikasa DIABE" , lien : "https://fondation.neoticon.com/" , src:diabe},
           ]
         }
     render () {

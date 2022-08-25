@@ -4,7 +4,8 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 class Content extends Component {
     state = {
-        task : "Tâche a faire"
+        task : "Tâche a faire",
+        role : "Integrateur web"
     }
     render () {
         return (
@@ -13,7 +14,7 @@ class Content extends Component {
                     introduction
                 </div>
                 <div className="title_subject">
-                    Développeur front-end
+                    {this.state.role}
                 </div>
                 <div className="ct_b">
                     <div className="text_hero">
@@ -28,7 +29,7 @@ class Content extends Component {
                         A propos
                     </div>
                     <div className="title_subject">
-                        Biographie
+                        Biographie et contact
                     </div>
                     <div className="about_me ct_b">
                     <div className="text_hero">
